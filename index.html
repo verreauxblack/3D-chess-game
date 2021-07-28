@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess Board</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <script type="module" src="./app.js"></script>
+</head>
+
+<body>
+    <div class="border" >
+        <div class="chessBoard">
+            <div class="sides front grid" >
+                <div class="piece" id="11"></div>
+                <div class="piece" id="12"></div>
+                <div class="piece" id="13"></div>
+                <div class="piece" id="14"></div>
+                <div class="piece" id="15"></div>
+                <div class="piece" id="16"></div>
+                <div class="piece" id="17"></div>
+                <div class="piece" id="18"></div>
+                <div class="piece" id="21"></div>
+                <div class="piece" id="22"></div>
+                <div class="piece" id="23"></div>
+                <div class="piece" id="24"></div>
+                <div class="piece" id="25"></div>
+                <div class="piece" id="26"></div>
+                <div class="piece" id="27"></div>
+                <div class="piece" id="28"></div>
+                <div class="piece" id="31"></div>
+                <div class="piece" id="32"></div>
+                <div class="piece" id="33"></div>
+                <div class="piece" id="34"></div>
+                <div class="piece" id="35"></div>
+                <div class="piece" id="36"></div>
+                <div class="piece" id="37"></div>
+                <div class="piece" id="38"></div>
+                <div class="piece" id="41"></div>
+                <div class="piece" id="42"></div>
+                <div class="piece" id="43"></div>
+                <div class="piece" id="44"></div>
+                <div class="piece" id="45"></div>
+                <div class="piece" id="46"></div>
+                <div class="piece" id="47"></div>
+                <div class="piece" id="48"></div>
+                <div class="piece" id="51"></div>
+                <div class="piece" id="52"></div>
+                <div class="piece" id="53"></div>
+                <div class="piece" id="54"></div>
+                <div class="piece" id="55"></div>
+                <div class="piece" id="56"></div>
+                <div class="piece" id="57"></div>
+                <div class="piece" id="58"></div>
+                <div class="piece" id="61"></div>
+                <div class="piece" id="62"></div>
+                <div class="piece" id="63"></div>
+                <div class="piece" id="64"></div>
+                <div class="piece" id="65"></div>
+                <div class="piece" id="66"></div>
+                <div class="piece" id="67"></div>
+                <div class="piece" id="68"></div>
+                <div class="piece" id="71"></div>
+                <div class="piece" id="72"></div>
+                <div class="piece" id="73"></div>
+                <div class="piece" id="74"></div>
+                <div class="piece" id="75"></div>
+                <div class="piece" id="76"></div>
+                <div class="piece" id="77"></div>
+                <div class="piece" id="78"></div>
+                <div class="piece" id="81"></div>
+                <div class="piece" id="82"></div>
+                <div class="piece" id="83"></div>
+                <div class="piece" id="84"></div>
+                <div class="piece" id="85"></div>
+                <div class="piece" id="86"></div>
+                <div class="piece" id="87"></div>
+                <div class="piece" id="88"></div>
+
+
+
+                <div id="b_king" class="piece b_king">k</div>
+                <div id="b_queen" class="piece b_queen">q</div>
+                <div id="b_rook1" class="piece b_rook1"></div>
+                <div id="b_rook2" class="piece b_rook2"></div>
+                <div id="b_knight1" class="piece b_knight1"></div>
+                <div id="b_knight2" class="piece b_knight2"></div>
+                <div id="b_bishop1" class="piece b_bishop1"></div>
+                <div id="b_bishop2" class="piece b_bishop2"></div>
+                <div id="b_pawn1" class="piece b_pawn b_pawn1"></div>
+                <div id="b_pawn2" class="piece b_pawn b_pawn2"></div>
+                <div id="b_pawn3" class="piece b_pawn b_pawn3"></div>
+                <div id="b_pawn4" class="piece b_pawn b_pawn4"></div>
+                <div id="b_pawn5" class="piece b_pawn b_pawn5"></div>
+                <div id="b_pawn6" class="piece b_pawn b_pawn6"></div>
+                <div id="b_pawn7" class="piece b_pawn b_pawn7"></div>
+                <div id="b_pawn8" class="piece b_pawn b_pawn8"></div>
+
+                <div id="w_king" class="piece white w_king"></div>
+                <div id="w_queen" class="piece white w_queen"></div>
+                <div id="w_rook1" class="piece white w_rook2"></div>
+                <div id="w_rook2" class="piece white w_rook1"></div>
+                <div id="w_knight1" class="piece white w_knight1"></div>
+                <div id="w_knight2" class="piece white w_knight2"></div>
+                <div id="w_bishop1" class="piece white w_bishop1"></div>
+                <div id="w_bishop2" class="piece white w_bishop2"></div>
+                <div id="w_pawn1" class="piece white w_pawn w_pawn1"></div>
+                <div id="w_pawn2" class="piece white w_pawn w_pawn2"></div>
+                <div id="w_pawn3" class="piece white w_pawn w_pawn3"></div>
+                <div id="w_pawn4" class="piece white w_pawn w_pawn4"></div>
+                <div id="w_pawn5" class="piece white w_pawn w_pawn5"></div>
+                <div id="w_pawn6" class="piece white w_pawn w_pawn6"></div>
+                <div id="w_pawn7" class="piece white w_pawn w_pawn7"></div>
+                <div id="w_pawn8" class="piece white w_pawn w_pawn8"></div>
+
+
+            </div>
+            <div class="sides back"></div>
+            <div class="sides right"><p>verreauxblack</p></div>
+            <div class="sides left"><p>verreauxblack</p></div>
+            <div class="sides top"><P>RAJ</P></div>
+            <div class="sides bottom"><P>RAJ</P></div>
+
+        </div>
+    </div>
+</body>
+
+</html>
